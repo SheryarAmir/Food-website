@@ -1,0 +1,21 @@
+.header{
+align-items: center;
+width: 90%;
+height: 40vw;
+margin: 25px auto ;
+background-repeat: no-repeat;
+position: relative;
+background-size:cover;
+background-blend-mode: darken;
+background-color: rgba(0, 0, 0, 0.5); 
+z-index: 0.5;
+border-radius: 30px;
+background-position: center;
+
+}
+
+
+.headercontant{
+    animation:fadeIn 5s;
+    z-index: 11;
+}

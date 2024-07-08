@@ -1,0 +1,57 @@
+/* App.css */
+
+.app {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .app.light {
+    background-color: white;
+    color: black;
+  }
+  
+  .app.dark {
+    background-color: black;
+    color: white;
+  }
+  
+  .navbar {
+    padding: 20px;
+  }
+  
+  /* Text color for navbar menu items */
+  .navbar-menu li {
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-menu.light  {
+    color: #747474;
+  }
+  
+  .navbar-menu.dark  {
+    color: white;
+  }
+  
+  /* Text color for icons and button */
+  .navbar-right p, .navbar-right .navbarsearchicon p, .navbar-right .signin button {
+    transition: color 0.3s ease;
+  }
+  
+  .app.light .navbar-right p,
+  .app.light .navbar-right .navbarsearchicon p,
+  .app.light .navbar-right .signin button {
+    color: #747474;
+  }
+  
+  .app.dark .navbar-right p,
+  .app.dark .navbar-right .navbarsearchicon p
+   {
+    color: white;
+  }
+  .app.dark .navbar-right .signin button{
+    color: white;
+  }
+  .app.dark .navbar-right .signin button:hover{
+    color: black
+  } 
+  /* Additional styles if needed */
+  
