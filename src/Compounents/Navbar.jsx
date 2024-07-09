@@ -16,7 +16,7 @@ function Navbar({ theme, setTheme }) {
       <div className={`navbar flex  w-[92%] mx-auto justify-between items-center ${theme}`}>
         <img className="w-28 rounded-t-full" src="./Assest/logo1.jpg" alt="Logo" />
 
-        <ul className={`navbar-menu flex list-none gap-10 text-2xl ${theme}`}>
+        <ul className={`navbar-menu flex list-none gap-10 text-xl ${theme}`}>
           <li
             onClick={() => setMenu("Home")}
             className={`cursor-pointer ${menu === "Home" ? "active border-b-2 pb-1" : ""}`}
