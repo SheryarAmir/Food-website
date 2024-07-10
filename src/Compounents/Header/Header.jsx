@@ -1,10 +1,16 @@
 import React from 'react'
 import "./Header.css"
+import { assets } from "../../Assest/assets"
 function Header() {
   return (
 
     <>
-    <div className='header '   style={{  backgroundImage: "url('./Assest/pic4.jpg')",  }} >
+    <div
+  className="header"
+  style={{
+    backgroundImage: `url(${assets.pic4})`,
+  }}
+>
 
 <div className="headercontant absolute flex flex-col items-start gap-3  w-[50%] left-[6vw] bottom-[26%] ">
     <h2 className='font-bold text-7xl text-white  '>Order you favourite food here</h2>

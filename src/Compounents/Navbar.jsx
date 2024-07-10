@@ -3,6 +3,7 @@ import { RiSearchLine } from "react-icons/ri";
 import { PiHandbagFill } from "react-icons/pi";
 import { MdDarkMode } from "react-icons/md";
 import { CiLight } from "react-icons/ci";
+import { assets } from "../Assest/assets"
 
 function Navbar({ theme, setTheme }) {
   const [menu, setMenu] = useState("Home");
@@ -14,7 +15,7 @@ function Navbar({ theme, setTheme }) {
   return (
     <>
       <div className={`navbar flex  w-[92%] mx-auto justify-between items-center ${theme}`}>
-        <img className="w-28 rounded-t-full" src="./Assest/logo1.jpg" alt="Logo" />
+        <img className="w-28 " src={assets.logo} alt="Logo" />
 
         <ul className={`navbar-menu flex list-none gap-10 text-xl ${theme}`}>
           <li

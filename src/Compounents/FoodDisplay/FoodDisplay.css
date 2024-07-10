@@ -1,0 +1,9 @@
+.food-Disply-List{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    margin-top: 30px;
+    gap: 30px;
+    row-gap: 30px;
+    animation: fadeIn 1;
+    transition: 0.3s;
+}
