@@ -12,11 +12,11 @@ function Header() {
   }}
 >
 
-<div className="headercontant absolute flex flex-col items-start gap-3  w-[50%] left-[6vw] bottom-[26%] ">
-    <h2 className='font-bold text-7xl text-white  '>Order you favourite food here</h2>
-    <p className='font-small text-2xl text-white'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor molestias facere distinctio nostrum harum eos numquam maiores quibusdam ullam reiciendis, perspiciatis, fugiat, perferendis optio corrupti.</p>
+<div className="headercontant sm:absolute flex flex-col items-start gap-3  md:w-[50%] md:left-[6vw] md:bottom-[26%]  sm:w-[60%] sm:left-[3vw] sm:bottom-[20%]  w-[100%]  ">
+    <h2 className='font-bold 2xl:text-7xl text-white  sm:text-4xl  xl:text-5xl ml-10  mt-10 sm:ml-0 sm:mt-0'>Order you favourite food here</h2>
+    <p className='font-small md:text-2xl text-white hidden lg:block'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor molestias facere distinctio nostrum harum eos numquam maiores quibusdam ullam reiciendis, perspiciatis, fugiat, perferendis optio corrupti.</p>
 
-    <button className=' text-[#747474] border font-semiblod py-4 px-6 mt-5  text-xl rounded-full bg-white '> View Menu</button>
+    <button className=' text-[#747474] border font-semiblod lg:py-4 lg:px-6 sm:mt-5 mb-2 sm:mb-0  md:text-xl rounded-full bg-white sm:py-2 sm:px-2  p-1 ml-10   sm:ml-0  text-sm'> View Menu</button>
 </div>
 
 
@@ -26,4 +26,4 @@ function Header() {
   )
 }
 
-export default Header
+export default Header;

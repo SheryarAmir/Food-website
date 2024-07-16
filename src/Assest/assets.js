@@ -44,6 +44,7 @@ import food_30 from './food_30.png'
 import food_31 from './food_31.png'
 import food_32 from './food_32.png'
 import pic4  from './pic4.jpg'
+import yak from "./yak.jpeg"
 
 import add_icon_white from './add_icon_white.png'
 import add_icon_green from './add_icon_green.png'
@@ -82,7 +83,8 @@ export const assets = {
     logout_icon,
     bag_icon,
     parcel_icon,
-    pic4
+    pic4,
+    yak
 }
 
 export const menu_list = [

@@ -1,0 +1,42 @@
+.Place-Order {
+
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap:50px;
+    margin-top: 100px;
+}
+.place-orderleft{
+    width: 100%;
+    max-width: max(30%, 500px);
+}
+
+.title {
+
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.place-orderleft input{
+    border: 1px solid #c5c5c5;
+    width: 100%;
+    margin-bottom: 15px;
+    outline-color: tomato;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.Multifileds {
+    display: flex;
+    gap: 10px;
+}
+
+.Place-orderright {
+    width: 100%;
+    max-width: max(40vw ,500px );
+}
+
+.cart-total button{
+    margin-top: 30px;
+}
